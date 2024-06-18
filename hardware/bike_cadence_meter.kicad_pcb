@@ -2661,6 +2661,17 @@
 			(thermal_bridge_angle 45)
 			(uuid "f0bcced2-ddb5-44a9-a86d-8b16b722e2ea")
 		)
+		(model "${KIPRJMOD}/components/BL651 453-0005/BL651 SA.STEP"
+			(offset
+				(xyz 46.6 -27.15 -7.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 		(layer "F.Cu")
@@ -3147,18 +3158,7 @@
 			(pintype "passive")
 			(uuid "c669e41b-edac-499c-8863-126894323d4c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "C:/Users/TrevinSmall/Downloads/TS-1187A-B-A-B.step"
+		(model "${KIPRJMOD}/components/TS-1187A/TS-1187A-B-A-B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4104,7 +4104,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "db5cb5f1-60b6-4c15-85fb-65c864413ff0")
 		)
-		(model "C:/Users/TrevinSmall/Downloads/3034/3034.step"
+		(model "${KIPRJMOD}/components/3034/3034.step"
 			(offset
 				(xyz 0 7.4 3.75)
 			)
@@ -4112,7 +4112,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 180 0)
+				(xyz -90 0 180)
 			)
 		)
 	)
