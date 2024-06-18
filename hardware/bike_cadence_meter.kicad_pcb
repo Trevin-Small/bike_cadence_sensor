@@ -809,7 +809,7 @@
 			(uuid "523850f6-29f8-4aa5-8279-b3c4f04f7893")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "298a1df7-57c2-40e5-9352-5d69cb43791d")
 			(effects
@@ -1958,7 +1958,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a65d5553-059c-4a99-8d91-3ac80915e385")
 			(effects
@@ -2113,7 +2113,7 @@
 			(uuid "796bc50d-a61d-4e5c-a024-9bad7e9a4ee4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d491331e-59ee-4ba6-9eff-a85622302e91")
 			(effects
@@ -2224,7 +2224,7 @@
 		(sheetname "Root")
 		(sheetfile "bike_cadence_meter.kicad_sch")
 		(attr smd)
-		(fp_text user "EZURIO"
+		(fp_text user "BL651"
 			(at -0.1 9.28 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -2680,7 +2680,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 3.75 360)
+			(at 0 3.75 0)
 			(layer "F.Fab")
 			(uuid "05c0e944-d013-4583-a120-5e4fb63025d9")
 			(effects
@@ -3101,7 +3101,7 @@
 			(uuid "9997067e-5e72-415f-968b-5b25dfc7a484")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.75 360)
+			(at 0 -3.75 0)
 			(layer "F.Fab")
 			(uuid "a8681296-c94e-4088-bba5-4b4b659f252c")
 			(effects
