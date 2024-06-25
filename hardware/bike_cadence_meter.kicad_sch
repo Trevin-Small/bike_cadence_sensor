@@ -524,6 +524,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -2698,6 +2800,12 @@
 		(uuid "2dd7cde4-f8ea-4b17-8ea3-1cb3ce29eeaf")
 	)
 	(junction
+		(at 60.96 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5145ced9-1f20-4888-a2f6-68dc25a6af78")
+	)
+	(junction
 		(at 105.41 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2708,6 +2816,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62cc66da-31ed-44de-8a8a-bbc46e17058f")
+	)
+	(junction
+		(at 97.79 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fd3b00d-89bf-4a2a-b6b9-dbc6e0fda782")
 	)
 	(junction
 		(at 62.23 115.57)
@@ -2729,6 +2843,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 38.1) (xy 60.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005e0788-62bc-4196-ac5e-c7968ed99057")
+	)
+	(wire
+		(pts
 			(xy 35.56 62.23) (xy 33.02 62.23)
 		)
 		(stroke
@@ -2736,6 +2860,16 @@
 			(type default)
 		)
 		(uuid "13990cbb-1eea-48a3-9804-14ffa27a622b")
+	)
+	(wire
+		(pts
+			(xy 17.78 121.92) (xy 19.05 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f33ba44-575c-4063-b2d2-5a721fd6ed9c")
 	)
 	(wire
 		(pts
@@ -2766,6 +2900,16 @@
 			(type default)
 		)
 		(uuid "219d790c-0d9d-458d-939e-a24428c53052")
+	)
+	(wire
+		(pts
+			(xy 60.96 36.83) (xy 66.04 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22379e48-c303-4c8f-b486-58490bbf06b1")
 	)
 	(wire
 		(pts
@@ -2809,6 +2953,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 74.93) (xy 60.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b365492-5867-40bc-8390-d3b7cacc5894")
+	)
+	(wire
+		(pts
 			(xy 139.7 59.69) (xy 139.7 62.23)
 		)
 		(stroke
@@ -2819,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 82.55) (xy 93.98 82.55)
+			(xy 97.79 82.55) (xy 93.98 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +3023,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 87.63) (xy 96.52 82.55)
+			(xy 97.79 83.82) (xy 97.79 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2969,6 +3123,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 67.31) (xy 66.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869aaae8-43e6-4429-9ca8-24a312553584")
+	)
+	(wire
+		(pts
 			(xy 99.06 54.61) (xy 105.41 54.61)
 		)
 		(stroke
@@ -2999,6 +3163,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 74.93) (xy 66.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931e3c25-1d7d-4e35-9057-7f0facff12ba")
+	)
+	(wire
+		(pts
 			(xy 22.86 36.83) (xy 25.4 36.83)
 		)
 		(stroke
@@ -3006,6 +3180,16 @@
 			(type default)
 		)
 		(uuid "94066a08-5e25-4049-840d-e2d062de858e")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 113.03 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc759ac-fc15-4d87-a0ab-bc816a6f152e")
 	)
 	(wire
 		(pts
@@ -3089,6 +3273,36 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 36.83) (xy 97.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40a650c-cec6-419b-975a-b2dcd78d6781")
+	)
+	(wire
+		(pts
+			(xy 102.87 39.37) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4158fa3-7a67-4390-b9d7-b779100b6373")
+	)
+	(wire
+		(pts
+			(xy 97.79 36.83) (xy 93.98 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f106a852-b0eb-4483-bc2f-6c3bea21eee9")
+	)
+	(wire
+		(pts
 			(xy 151.13 57.15) (xy 139.7 57.15)
 		)
 		(stroke
@@ -3164,7 +3378,7 @@
 		(uuid 39d3239b-4c46-4ceb-aeb0-705a088252bc)
 	)
 	(rectangle
-		(start 15.24 104.14)
+		(start 13.97 104.14)
 		(end 39.37 133.35)
 		(stroke
 			(width 0)
@@ -3415,7 +3629,7 @@
 	)
 	(global_label "INT_2"
 		(shape input)
-		(at 93.98 39.37 0)
+		(at 102.87 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3425,7 +3639,7 @@
 		)
 		(uuid "669fe529-225f-4650-91cf-0f00e2b630c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.0452 39.37 0)
+			(at 110.9352 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3739,7 @@
 	)
 	(global_label "INT_1"
 		(shape input)
-		(at 93.98 36.83 0)
+		(at 102.87 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3535,7 +3749,7 @@
 		)
 		(uuid "9cc2f76f-0aed-42b4-82d6-a0562dc6d442")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.0452 36.83 0)
+			(at 110.9352 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,8 +4023,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0638a2f9-fb17-46d1-835c-4012c31e26dc")
+		(property "Reference" "TP2"
+			(at 57.658 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.658 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e957237-9886-45d5-b615-f69edca95dc6")
+		)
+		(instances
+			(project "bike_cadence_meter"
+				(path "/4c05a7fc-8335-4291-a109-097679a9bce3"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b58dc3c-96e5-4710-81ec-072046ea0643")
+		(property "Reference" "TP1"
+			(at 57.658 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.658 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54b04055-0fe1-448a-a3d6-5e79d83b5f32")
+		)
+		(instances
+			(project ""
+				(path "/4c05a7fc-8335-4291-a109-097679a9bce3"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 66.04 36.83 270)
+		(at 60.96 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3819,7 +4163,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bc55eed-769c-44d9-942d-689af7befd03")
 		(property "Reference" "#PWR03"
-			(at 59.69 36.83 0)
+			(at 60.96 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,16 +4172,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 36.8299 90)
+			(at 60.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 36.83 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +4189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 36.83 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +4198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 36.83 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,6 +4348,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLPCB #" " C23162"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddd5c078-e6f2-499f-85f2-fa6499f9be45")
 		)
@@ -4066,6 +4418,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLPCB #" " C38523"
+			(at 54.61 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,6 +4561,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLPCB #" " C23162"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -4354,6 +4724,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d4637db-262f-4ad6-b39b-4ebbcef27781")
+		(property "Reference" "TP3"
+			(at 118.11 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 118.11 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9215510-e4b6-4c91-97a8-4e94bc2a869f")
+		)
+		(instances
+			(project "bike_cadence_meter"
+				(path "/4c05a7fc-8335-4291-a109-097679a9bce3"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 48.26 48.26 0)
 		(unit 1)
@@ -4407,6 +4844,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C23162"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLPCB #" " C23162"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f5ffb77-fcde-4c0a-aa23-494c00d3aba2")
 		)
@@ -4424,7 +4879,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 74.93 270)
+		(at 60.96 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4433,7 +4888,7 @@
 		(fields_autoplaced yes)
 		(uuid "374729c2-6573-4376-9dcd-e30f6cccf89c")
 		(property "Reference" "#PWR02"
-			(at 59.69 74.93 0)
+			(at 60.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,16 +4897,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 74.9299 90)
+			(at 60.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 74.93 0)
+			(at 60.96 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 74.93 0)
+			(at 60.96 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 74.93 0)
+			(at 60.96 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,6 +5209,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLPCB #" " C22775"
+			(at 21.59 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b29a3b34-dc14-445f-845f-bb74159d8dc6")
 		)
@@ -4771,6 +5234,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40651c7f-87f1-45c7-8ee3-a61ba3c58ef7")
+		(property "Reference" "TP4"
+			(at 96.012 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.472 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f97f489c-7f10-44eb-99c8-8c96e240dbb9")
+		)
+		(instances
+			(project "bike_cadence_meter"
+				(path "/4c05a7fc-8335-4291-a109-097679a9bce3"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 64.77 0)
 		(unit 1)
@@ -4778,7 +5307,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "44687275-0138-440c-b185-642090616964")
 		(property "Reference" "#PWR021"
 			(at 35.56 71.12 0)
@@ -4882,6 +5410,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLPCB #" " C38523"
+			(at 54.61 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,6 +5621,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLPCB #" "C2286"
 			(at 29.21 62.23 0)
 			(effects
 				(font
@@ -5867,6 +6413,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLPCB #" " C14663"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c1f5381-30c7-42e6-b844-eb425f5ce453")
 		)
@@ -5936,6 +6491,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLPCB #" " C23162"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fa3451c-6ecb-45be-afcf-721f92e22df9")
 		)
@@ -5996,6 +6560,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 27.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLPCB #" " C318884"
 			(at 27.94 91.44 0)
 			(effects
 				(font
@@ -6207,6 +6780,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLPCB #" " C967633"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "797ada79-ca7b-4f81-b1c3-ec28c0a7fe00")
 		)
@@ -6260,7 +6842,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 19.05 121.92 0)
+		(at 17.78 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6269,7 +6851,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0a24d36-5b80-4078-adac-dfe941346099")
 		(property "Reference" "#PWR012"
-			(at 19.05 125.73 0)
+			(at 17.78 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6860,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 19.05 116.84 0)
+			(at 17.78 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 121.92 0)
+			(at 17.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 121.92 0)
+			(at 17.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 19.05 121.92 0)
+			(at 17.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,6 +7025,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLPCB #" " C14663"
+			(at 173.99 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "618bd407-c5b0-46ec-8279-ef5e79ff03dc")
 		)
@@ -6460,7 +7051,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 87.63 0)
+		(at 97.79 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6469,7 +7060,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff752c21-c5ee-4453-b4d0-b3246f5aa6aa")
 		(property "Reference" "#PWR04"
-			(at 96.52 93.98 0)
+			(at 97.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +7069,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 92.71 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +7077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 87.63 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +7086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 87.63 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +7095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 87.63 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

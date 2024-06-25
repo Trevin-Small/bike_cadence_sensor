@@ -1,0 +1,12 @@
+Reference,Value,Footprint,Qty,DNP,JLPCB Part #
+"C1,C2",100nF,Capacitor_SMD:C_0603_1608Metric,2,, C14663
+"C5,C6",12pF,Capacitor_SMD:C_0603_1608Metric,2,, C38523
+D1,LED,LED_SMD:LED_0603_1608Metric,1,,C2286
+J1,3034,Coin_cell_batt:BAT_3034,1,Y,
+J2,1x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1,Y,
+"R1,R2,R3,R4",4.7k,Resistor_SMD:R_0603_1608Metric,4,, C23162
+R5,100,Resistor_SMD:R_0603_1608Metric,1,, C22775
+SW1,SW_Push,Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A,1,, C318884
+U1,~,Custom Components:Euzrio 453-00005,1,Y,
+U2,LSM6DS3,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,1,, C967633
+Y1,CM130_9pf_+-20ppm,32.768khz crystal:CM130 32.768 DZCT,1,Y,
