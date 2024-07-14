@@ -1,5 +1,5 @@
 # bike_cadence_sensor
- DIY Cadence Sensor for a Bike, built off Ezurio BL651 453-0005 (an RF module built on the nrf52810)
+ DIY Cadence Sensor for a Bike, built off an nrf52810 module (Ezurio BL651 453-0005)
 
 Uses a gyroscope to measure rotational velocity, and ANT+ to communicate data to a fitness watch.
 
