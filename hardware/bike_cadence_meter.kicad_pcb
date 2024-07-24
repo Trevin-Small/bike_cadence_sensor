@@ -157,7 +157,7 @@
 	(net 35 "unconnected-(U1-Pad8)")
 	(net 36 "unconnected-(U2-NC-Pad11)")
 	(net 37 "unconnected-(U2-NC-Pad10)")
-	(net 38 "Net-(D1-K)")
+	(net 38 "Net-(D1-A)")
 	(net 39 "Net-(U2-CS)")
 	(net 40 "I{slash}O 9")
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -223,6 +223,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLPCB #" " C22775"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3fbe1fa-387f-4b10-b974-b43316f301b1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -357,7 +370,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 38 "Net-(D1-K)")
+			(net 38 "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "303b6d23-0ea5-492c-9024-e435ad8d776d")
 		)
@@ -436,6 +449,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLPCB #" " C23162"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adbae037-309d-4dbd-858c-c5463b8f1a72")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -942,6 +968,19 @@
 				)
 			)
 		)
+		(property "JLPCB #" " C23162"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "054de411-234b-4c27-b010-26e77cbb99fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c669b9c9-73fc-4d91-abe0-2e8debc968e8")
 		(sheetname "Root")
@@ -1094,7 +1133,7 @@
 		(at 51.75 36.25)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "P13"
+		(property "Reference" "TP1"
 			(at 0 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "88da9353-2547-4312-8503-b0e38ec60d42")
@@ -1266,6 +1305,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLPCB #" " C23162"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65f0e8f6-aa17-45d7-87fa-e340cdc2e61b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1483,6 +1535,19 @@
 				)
 			)
 		)
+		(property "JLPCB #" " C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92216061-c983-448d-a7f9-090288195b46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bf425c35-987c-47d6-b6d8-91984329fce3")
 		(sheetname "Root")
@@ -1692,6 +1757,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLPCB #" " C38523"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e456bcd1-27f4-4d8c-b598-a957e1ea3f72")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2025,6 +2103,19 @@
 				)
 			)
 		)
+		(property "JLPCB #" " C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5c49187-1135-48b4-9764-0a50ad7cb670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f92cbc95-de7f-4a0f-915a-e67518ae1926")
 		(sheetname "Root")
@@ -2234,6 +2325,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" " C23162"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34040fd5-3e91-4699-b6c2-30c0064db025")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLPCB #" " C23162"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81d3dd82-3cd3-44e0-a881-1a13d13675eb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2910,7 +3027,7 @@
 		(at 26.5 43.75)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "VCC"
+		(property "Reference" "TP3"
 			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "966c19ef-fbdb-47d1-92e7-99677138c3be")
@@ -3082,6 +3199,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLPCB #" " C318884"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1600dd3-f5fe-4ba1-b893-132b6c2386fd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3519,11 +3649,11 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b15e1710-e58a-4e0d-a816-801627ae36c3")
-		(at 54.5 30.4625 -90)
+		(at 54.5 30.4625 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 2.2875 0 180)
+			(at -2.2875 0 360)
 			(layer "F.SilkS")
 			(uuid "c64f8fa1-cc0e-4c6b-b92a-8995f1cfb491")
 			(effects
@@ -3545,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3558,7 +3688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3571,7 +3701,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3583,20 +3713,33 @@
 				)
 			)
 		)
+		(property "JLPCB #" "C2286"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "910c1a8f-43ae-4148-99ff-57414e2f9c34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/64a8fea4-b6df-4f73-9adf-3dede9a71ff9")
 		(sheetname "Root")
 		(sheetfile "bike_cadence_meter.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.485 0.735)
-			(end 0.8 0.735)
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "21b35789-d69f-47e8-82ed-3e61a7f64a8f")
+			(uuid "3605a456-5dd2-4987-a647-f23a0b2a739a")
 		)
 		(fp_line
 			(start -1.485 -0.735)
@@ -3609,44 +3752,14 @@
 			(uuid "2c29f6b4-d4f4-4d21-8e54-199500720bbb")
 		)
 		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
+			(start -1.485 0.735)
+			(end 0.8 0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3605a456-5dd2-4987-a647-f23a0b2a739a")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "eac42a39-1c67-4765-b396-bc73306bfd21")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "40c4a6f7-fe8c-4c9d-b50d-81bf053bc9ed")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "64f2801a-9104-40dd-ba8c-2a5209366794")
+			(uuid "21b35789-d69f-47e8-82ed-3e61a7f64a8f")
 		)
 		(fp_line
 			(start 1.48 -0.73)
@@ -3659,34 +3772,44 @@
 			(uuid "d4dee2b6-8bb6-4264-a945-0d84513cc3db")
 		)
 		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "83f99bfd-1aab-4fba-95f9-386d97be28c8")
+			(layer "F.CrtYd")
+			(uuid "64f2801a-9104-40dd-ba8c-2a5209366794")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end 0.8 -0.4)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "174b8151-ae82-4ff8-a280-6f8fe2abf7ee")
+			(layer "F.CrtYd")
+			(uuid "40c4a6f7-fe8c-4c9d-b50d-81bf053bc9ed")
 		)
 		(fp_line
-			(start -0.8 -0.1)
-			(end -0.8 0.4)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eac42a39-1c67-4765-b396-bc73306bfd21")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end -0.5 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5528793c-303c-4f27-aef5-701d619b1229")
+			(uuid "536e5c0d-f3b6-4daa-bc99-e8838099ade2")
 		)
 		(fp_line
 			(start -0.5 -0.4)
@@ -3699,14 +3822,34 @@
 			(uuid "c8339730-89bd-48a0-946f-57fc924c1ed9")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end -0.5 -0.4)
+			(start -0.8 -0.1)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "536e5c0d-f3b6-4daa-bc99-e8838099ade2")
+			(uuid "5528793c-303c-4f27-aef5-701d619b1229")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "174b8151-ae82-4ff8-a280-6f8fe2abf7ee")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "83f99bfd-1aab-4fba-95f9-386d97be28c8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -3720,21 +3863,21 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0 270)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 38 "Net-(D1-K)")
+			(net 1 "GND")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "135307fb-a7f9-4371-abdb-6c86cea1b311")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0 270)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 1 "GND")
+			(net 38 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "89e0d797-7d69-4348-9a58-358cbdb25b3c")
@@ -4529,6 +4672,19 @@
 				)
 			)
 		)
+		(property "JLPCB #" " C38523"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ce3a1d5-55f3-470f-a7af-5457e802149d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/448aa7e9-7918-4ef1-af36-1d25a0d46876")
 		(sheetname "Root")
@@ -4738,6 +4894,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLPCB #" " C967633"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02e691a6-4a1b-4607-b36f-420778351896")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5088,7 +5257,7 @@
 		(at 36.25 43.75)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "GND"
+		(property "Reference" "TP2"
 			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "2c034864-7670-4336-807b-48a85d5b483b")
